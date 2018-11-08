@@ -84,21 +84,22 @@
 }
 
 .lista div{
-    width: 40%;
+    width: 35%;
     height: 20%;
     /* border:  2px solid black; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     /* text-align: center; */
 }
 
 .lista img{
-    transform: scale(0.8, 0.8);
+    width: 18vh;
+    height: auto;
 }
 
 .lista p{
-    width: 70%;
+    width: 53%;
     font-size: 200%;
     color: #858073;
 }
