@@ -12,7 +12,7 @@ function Jogar(){
   let x = Math.round(Math.random());
   let cor = cores[x];
 
-  if((umNum === n) || (umaCor === cor)){
+  if((umNum === n) && (umaCor === cor)){
     resultado = 'ganhou';
   }else{
     resultado = 'perdeu';
