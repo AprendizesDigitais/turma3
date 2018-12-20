@@ -1,7 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'brandon_bold', sans-serif;
+    line-height: 1.19;
+    letter-spacing: 1.4px;
 }
 
 .corpo{
@@ -26,10 +28,11 @@
 
 .linha2 {
     width: 100%;
-    height: 70vh;
+    height: auto;
+    padding: 1% 0;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     font-size: 20px;
     outline: 2px lightgray solid;
     background-color: #E9EBEE;
@@ -44,7 +47,7 @@
     border-radius: 5px;
 }
 
-.linha2 nav a{
+.linha2 nav a, .linha2 nav h2{
     padding: 10px;
 }
 
