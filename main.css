@@ -39,73 +39,83 @@
 }
 
 .linha2 nav{
-    width: 20%;
-    height: 98%;
+    width: 16%;
+    height: auto;
+    padding: 3% 2% 3% 0;
     display: flex;
     flex-direction: column;
     background-color: white;
     border-radius: 5px;
 }
 
-.linha2 nav a, .linha2 nav h2{
-    padding: 10px;
+.linha2 nav a{
+    padding: 2% 0 2% 6%;
+    text-decoration: none;
 }
 
-.linha2 section{
-    width: 78%;
-    height: 98%;
-    border-radius: 5px;
+.linha2 nav h2{
+    padding: 2% 0 2% 3%;
+}
+
+.linha2 .placar{
+    width: 80%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
 }
 
-.sheader{
+.placar header{
     width: 100%;
-    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #05060E;
     border-radius: 5px 5px 0 0;
-}
-
-.sheader h2{
     color: #EEE3D7;
-    font-size: 250%;
 }
 
-.lista{
+.placar .lista{
     width: 100%;
-    height: 85%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     background-color: #05060E;
     border-radius: 0 0 5px 5px;
 }
 
-.lista div{
-    width: 35%;
-    height: 20%;
-    /* border:  2px solid black; */
+.lista article{
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    /* text-align: center; */
+    justify-content: center;
 }
 
-.lista img{
-    width: 18vh;
-    height: auto;
+.lista div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
 }
 
-.lista p{
-    width: 53%;
-    font-size: 200%;
+.lista article p{
+    font-size: 3vw;
     color: #858073;
 }
+
+.linha2 article input{
+    background-color: #05060E;
+    border: none;
+    font-size: 3vw;
+    color: #858073;
+    outline: none;
+}
+
+
+
+
+
+
 
 .linha3{
     flex-direction: column;
@@ -115,3 +125,4 @@
     color: aliceblue;
     font-size: 200%;
 }
+
